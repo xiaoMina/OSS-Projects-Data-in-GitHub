@@ -31,14 +31,3 @@ First, you need load GHTorrent to your local computer. Step is as follows:
 	
 	we sort by project id, you can get the projects in [start*100th, end*100th] by modifying the value of 'start' and 'end'
 	we got 45000 projects, shown in data/
-
-(3)get experimental result to answer four key question:
-	
-	run src/model/main.py 
-	
-	Question 1: Is the method of health measurement effective?
-	Question 2: What is the distribution of OSS project health in an open-source community?
-	Question 3: How do the evaluation indicators and project health in different distribution areas change with time?
-	Question 4: At different stages, what is the change of the importance of each evaluation indicators to measure the health of OSS project?
-	
-	experimental result is shown in fig/ .
