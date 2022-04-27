@@ -1,5 +1,5 @@
 #  Health Evaluation Indicators and Measurement Method for Open-Source Software Projects
-(1)create GHTorrent MySql database
+create GHTorrent MySql database
 First, you need load GHTorrent to your local computer. Step is as follows:
 	
 	(a)download ghtorrent dataset:
@@ -25,9 +25,4 @@ First, you need load GHTorrent to your local computer. Step is as follows:
 		CREATE USER 'ystian'@'%' IDENTIFIED BY '123456';
 		GRANT select ON ghtorrent_restore.* TO 'ystian'@'%'
 
-(2)obtain the experimental data, namely daily data of all projects from created date.
-	
-	run  src/data/main.py
-	
-	we sort by project id, you can get the projects in [start*100th, end*100th] by modifying the value of 'start' and 'end'
-	we got 45000 projects, shown in data/
+
