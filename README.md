@@ -1,4 +1,4 @@
-#  Health Evaluation Indicators and Measurement Method for Open-Source Software Projects
+#  Health Evaluation and Assessment Method for Open Source Software Projects in GitHub
 create GHTorrent MySql database
 First, you need load GHTorrent to your local computer. Step is as follows:
 	
